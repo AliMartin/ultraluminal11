@@ -1,0 +1,27 @@
+uuid: 67a93e9b-0b0e-4656-a59a-a30c62e477e2
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: awDrJQQyqKEPBxAkXDMCSvFleEH0qZ_1OID09N_UmZU
+id: ultraluminal11_account_menu
+theme: ultraluminal11
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

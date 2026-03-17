@@ -1,0 +1,27 @@
+uuid: 8a477db1-bdb9-4d2b-9be2-d996262e7431
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: flFIRauf1xb2bqHOemEWnWEDQV_ERAwGc_M9ZU9FNnc
+id: ultraluminal11_footer
+theme: ultraluminal11
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

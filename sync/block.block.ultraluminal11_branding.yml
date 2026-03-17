@@ -1,0 +1,25 @@
+uuid: 1394d84b-ad3f-4080-afd3-8a5149382380
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: Nzc9sqF--lkp1SKkNTubvAgbQmnzzBqedvhZIkqvk3E
+id: ultraluminal11_branding
+theme: ultraluminal11
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 35dbba93-332a-4fa2-8591-60229c6546f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: kEtZ3I8OqHRrzT1LpN2UlJeQ-PoPzSyZfTMb0Gkgz3A
+id: ultraluminal11_help
+theme: ultraluminal11
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

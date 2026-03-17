@@ -1,0 +1,22 @@
+uuid: 0ea1054d-f997-4125-b890-4ddf7d34ca07
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: 7ogFUGHZi-5AgYEZB2Jtofede317VCiSJ8dvGsCp4CY
+id: ultraluminal11_messages
+theme: ultraluminal11
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

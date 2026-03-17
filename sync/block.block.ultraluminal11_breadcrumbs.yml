@@ -1,0 +1,22 @@
+uuid: c026914f-ce98-4f2e-9c54-f7c4a283f186
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: s3nS8XwvDggy-FkDe5KpCgF9HHJQ4DzbI4Eqw8phops
+id: ultraluminal11_breadcrumbs
+theme: ultraluminal11
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

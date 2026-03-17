@@ -1,0 +1,22 @@
+uuid: ed5910c7-c82a-42ec-aaf6-06ea0db25899
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: hU8GEpQ9KpWMMinUym4fZKHwDfon0XHH8GPzYJ2Ec20
+id: ultraluminal11_content
+theme: ultraluminal11
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

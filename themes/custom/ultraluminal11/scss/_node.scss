@@ -1,0 +1,230 @@
+.home-hero {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+
+  .eyebrow {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: $primary;
+  }
+
+  h1 {
+    max-width: 12ch;
+    line-height: 1.05;
+  }
+
+  .lead {
+    max-width: 42rem;
+    font-size: 1.25rem;
+  }
+
+  p {
+    max-width: 46rem;
+  }
+
+  .btn {
+    min-width: 180px;
+  }
+}
+
+.home-intro,
+.home-why,
+.home-credibility,
+.home-location,
+.home-cta {
+  h2 {
+    max-width: 18ch;
+  }
+
+  p {
+    max-width: 52rem;
+  }
+}
+
+.home-services,
+.home-sectors,
+.home-process {
+  h2,
+  > .container > .row > .col-lg-8 p,
+  > .container > .row > .col-lg-10 p {
+    max-width: 52rem;
+  }
+}
+
+.service-card,
+.sector-card,
+.process-step {
+  height: 100%;
+  padding: 2rem;
+  border: 1px solid rgba($black, 0.08);
+  border-radius: 1rem;
+  background-color: $white;
+  box-shadow: 0 0.5rem 1.5rem rgba($black, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  h3 {
+    line-height: 1.2;
+  }
+
+  p {
+    margin-bottom: 0;
+    color: rgba($black, 0.8);
+  }
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2rem rgba($black, 0.08);
+    border-color: rgba($primary, 0.2);
+  }
+}
+
+.home-services {
+  .service-card {
+    background: linear-gradient(
+      180deg,
+      rgba($white, 1) 0%,
+      rgba($primary, 0.025) 100%
+    );
+  }
+}
+
+.home-sectors {
+  .sector-card {
+    background-color: rgba($light, 0.6);
+  }
+}
+
+.home-process {
+  .process-step {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 0.25rem;
+      margin-bottom: 1rem;
+      border-radius: 999px;
+      background-color: $primary;
+    }
+  }
+}
+
+.home-why,
+.home-location {
+  background-color: rgba($light, 0.5);
+}
+
+.home-credibility {
+  background-color: rgba($primary, 0.03);
+}
+
+.home-cta {
+  .container {
+    position: relative;
+  }
+
+  .row {
+    padding: 2.5rem 2rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(
+      135deg,
+      rgba($primary, 0.08) 0%,
+      rgba($white, 1) 100%
+    );
+    border: 1px solid rgba($primary, 0.12);
+  }
+
+  h2 {
+    max-width: 16ch;
+  }
+
+  p {
+    max-width: 44rem;
+  }
+}
+
+.home-reassurance {
+  border-top: 1px solid rgba($black, 0.08);
+
+  p {
+    font-weight: 600;
+    color: rgba($black, 0.7);
+  }
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.8rem 1.4rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  box-shadow: 0 0.5rem 1rem rgba($primary, 0.2);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0.75rem 1.25rem rgba($primary, 0.28);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home-hero {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+
+    h1 {
+      max-width: none;
+    }
+  }
+
+  .home-intro,
+  .home-why,
+  .home-credibility,
+  .home-location,
+  .home-cta {
+    h2 {
+      max-width: none;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-hero,
+  .home-intro,
+  .home-services,
+  .home-why,
+  .home-sectors,
+  .home-process,
+  .home-credibility,
+  .home-location,
+  .home-cta {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  .service-card,
+  .sector-card,
+  .process-step {
+    padding: 1.5rem;
+  }
+
+  .home-cta {
+    .row {
+      padding: 2rem 1.25rem;
+    }
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .home-hero {
+    .d-flex {
+      width: 100%;
+    }
+  }
+}

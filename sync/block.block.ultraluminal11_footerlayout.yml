@@ -1,0 +1,23 @@
+uuid: b3c2f5c9-e96e-4286-8049-9802e1da275d
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:49fb7df5-72b4-4779-9587-0d94297da7d4'
+  module:
+    - block_content
+  theme:
+    - ultraluminal11
+id: ultraluminal11_footerlayout
+theme: ultraluminal11
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:49fb7df5-72b4-4779-9587-0d94297da7d4'
+settings:
+  id: 'block_content:49fb7df5-72b4-4779-9587-0d94297da7d4'
+  label: 'Footer layout'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 5fa74aa4-d82f-41ee-8c35-b4ce2b96ed58
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: jJlgmW1DViW1bMLtwjzwjry9TyL3w023S0F9JjAckA8
+id: ultraluminal11_local_tasks
+theme: ultraluminal11
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

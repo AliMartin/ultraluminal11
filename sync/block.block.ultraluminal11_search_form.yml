@@ -1,0 +1,23 @@
+uuid: d6bac4cc-d705-4dc9-b7b6-51e3ab44fefd
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ultraluminal11
+_core:
+  default_config_hash: J2M72un8M5CFe3PJrvnyGz2CO9bva9A1b9tRv6k2UXw
+id: ultraluminal11_search_form
+theme: ultraluminal11
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }
